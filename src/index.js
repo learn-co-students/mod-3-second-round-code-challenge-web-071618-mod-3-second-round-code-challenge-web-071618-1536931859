@@ -57,8 +57,7 @@ function sellTicket(showId){
       'Accepts': 'application/json'
     },
     body: JSON.stringify({showing_id: `${showId}`})
-  })
-  getShowings()
+  }).then(getShowings)
 }
 
 getShowings()
