@@ -148,6 +148,8 @@ Example response:
   ]
 }
 ```
+//console log the data to make sure it matches above
+//yes it does
 
 A theatre has many showings.
 
@@ -201,6 +203,16 @@ In the end, whatever way you can get this working is totally ok!
 
 The cards that represent a movie showing should be appended to the div with the class of  `showings`.  Each card should have the following html
 
+
+// get show container
+//change from array like or get element by id
+
+//console.log that
+//iterate through  theatre showing and set variables
+//call inner html on show showContainer
+//interpolate those variables
+
+
 ```html
 <div class="card">
   <div class="content">
@@ -226,4 +238,3 @@ The cards that represent a movie showing should be appended to the div with the 
 ### Considerations
 
 You are free to solve this in any way you choose. It is not required that you have ES6 classes or use Object Orientation. We would recommend beginning with a straightforward functional implementation and refactoring to objects as needed.
-
